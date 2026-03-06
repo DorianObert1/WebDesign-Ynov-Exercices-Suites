@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: exercice12-db
+    environment:
+      POSTGRES_DB: exercice12
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5437:5432"
