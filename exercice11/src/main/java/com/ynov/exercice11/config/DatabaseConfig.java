@@ -10,7 +10,6 @@ import org.springframework.r2dbc.connection.init.ResourceDatabasePopulator;
 @Configuration
 public class DatabaseConfig {
 
-    // initialise la base avec schema.sql au démarrage
     @Bean
     public ConnectionFactoryInitializer initializer(ConnectionFactory connectionFactory) {
         ConnectionFactoryInitializer initializer = new ConnectionFactoryInitializer();

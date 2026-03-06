@@ -3,7 +3,6 @@ package com.ynov.exercice11.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
 
-// on utilise app_users car "users" est un mot réservé en H2
 @Table("app_users")
 public class User {
 
